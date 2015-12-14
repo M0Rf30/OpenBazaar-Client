@@ -1,5 +1,5 @@
 'use strict';
-var electronModules = ['app', 'browser-window', 'crash-reporter', 'remote', 'shell', 'clipboard', 'screen'];
+var electronModules = ['app', 'browser-window', 'crash-reporter', 'remote', 'shell', 'clipboard', 'screen', 'tray', 'menu', 'auto-updater'];
 
 module.exports = function redirect(request) {
   // Tell valiquire to ignore these modules
